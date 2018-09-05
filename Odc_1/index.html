@@ -4,26 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Odliczanie czasu</title>	
 	
-	<script type="text/javascript">
-
-		function odliczanie(){
-			var dzisiaj = new Date();
-
-			var dzien = dzisiaj.getDate();
-			var miesiac = dzisiaj.getMonth()+1;
-			var rok = dzisiaj.getFullYear();
-
-			var godzina = dzisiaj.getHours();
-			var minuta = dzisiaj.getMinutes();
-			var secunda = dzisiaj.getSeconds();
-
-			document.getElementById("zegar").innerHTML = 
-				dzien + "/" + miesiac + "/" + rok + "|" + godzina + ":" + minuta + ":" + secunda;
-
-				setTimeout("odliczanie()",1000);
-		}
-		
-	</script>	
+	<script type="text/javascript" src="script.js"></script>	
 
 </head>
 <body onload = "odliczanie();">
