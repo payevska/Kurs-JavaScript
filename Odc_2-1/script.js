@@ -7,7 +7,9 @@ function sprawdz(){
 		document.getElementById("wynik").innerHTML = "dodatnia";
 	} else if (liczba < 0) {
 		document.getElementById("wynik").innerHTML = "ujemna";
-	} else {
+	} else if (liczba == 0) {
 		document.getElementById("wynik").innerHTML = "zero";
+	}	else {
+		document.getElementById("wynik").innerHTML = "to nie jest liczba";
 	}
 	}
