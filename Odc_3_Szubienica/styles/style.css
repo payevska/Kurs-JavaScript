@@ -24,16 +24,16 @@ body {
 	width: 450px;
 	text-align: center;
 	min-height: 280px;
-	}
+}
 
-	#alfabet {
+#alfabet {
 	float: left;
 	width: 450px;
 	text-align: center;
 	min-height: 280px;
-	}
+}
 
-	.litera {
+.litera {
 		width: 30px;
 		height: 30px;
 		text-align: center;
@@ -43,10 +43,21 @@ body {
 		float: left;
 		cursor: pointer;
 		border-radius: 15px; 
-	}
+}
 
-	.litera:hover {
+.litera:hover {
 		background-color: #222222;
 		color: white;
 		border: 3px solid white;
-	}
+}
+
+.reset {
+		color: green;
+		cursor: pointer;
+		font-size: 48px;
+}
+
+.reset:hover {
+	color: white;
+}
+
